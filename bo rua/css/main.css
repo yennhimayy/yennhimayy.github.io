@@ -6339,7 +6339,7 @@ footer img {
 .home {
   background-image: url("../img/Layer 1.png");
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
   min-height: 100vh;
   text-align: center; }
@@ -6411,7 +6411,7 @@ footer img {
       position: relative;
       background-image: url("../img/Layer 1.png");
       background-attachment: fixed;
-      background-size: cover; }
+      background-size: 100% 100%; }
     .home .logo {
       position: absolute;
       top: 0rem;
@@ -6422,8 +6422,8 @@ footer img {
       border: 0;
       max-width: 1200px;
       position: absolute;
-      top: 25%;
-      right: 15%; }
+      top: 20%;
+      right: 10%; }
       .home .figue h1 {
         text-transform: uppercase;
         color: #290369;
@@ -6459,34 +6459,44 @@ footer img {
           margin: 0 0.3rem;
           font-size: 1.8rem;
           color: #b921b9; }
-    .home .linhvat .owl-carousel {
-      left: -20%;
-      bottom: -50%; }
-      .home .linhvat .owl-carousel .item {
-        margin-bottom: 1.5rem; }
+    .home .linhvat {
+      z-index: 999; }
+      .home .linhvat .owl-carousel {
+        left: -20%;
+        bottom: 50%; }
         .home .linhvat .owl-carousel .item img {
+          position: absolute;
+          display: inline-block;
           margin: auto;
           padding: 0;
           width: 20%;
-          height: 20%; }
-      .home .linhvat .owl-carousel .owl-nav {
-        margin: 0; }
-        .home .linhvat .owl-carousel .owl-nav button:focus {
-          outline: none; }
-        .home .linhvat .owl-carousel .owl-nav i {
-          padding: 1rem;
-          background: #63e1f8;
-          color: #04a6c3;
-          border: 0; }
-          .home .linhvat .owl-carousel .owl-nav i:hover {
-            background: #ffff00;
-            color: #000; }
-    .home .linhvat .text h2 {
-      color: #290369;
-      text-transform: uppercase;
-      padding: 2rem 0 3rem 0;
-      margin-top: 1rem;
-      font-size: 1.5rem;
-      font-weight: bold; } }
+          height: 20%;
+          bottom: 2rem; }
+        .home .linhvat .owl-carousel .owl-nav {
+          margin: 0;
+          position: absolute;
+          bottom: 1rem;
+          right: 2rem; }
+          .home .linhvat .owl-carousel .owl-nav button:focus {
+            outline: none; }
+          .home .linhvat .owl-carousel .owl-nav i {
+            padding: 1rem;
+            background: #63e1f8;
+            color: #04a6c3;
+            border: 0; }
+            .home .linhvat .owl-carousel .owl-nav i:hover {
+              background: #ffff00;
+              color: #000; }
+      .home .linhvat .text h2 {
+        color: #290369;
+        padding: 2rem 0 2rem 0;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 0px #000;
+        margin-bottom: 0;
+        background: 0;
+        bottom: 1rem;
+        position: absolute;
+        left: 2rem;
+        font-weight: bold; } }
 
 /*# sourceMappingURL=main.css.map */
